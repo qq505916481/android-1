@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-6.0.1_r74" />
+           revision="refs/tags/android-6.0.1_r78" />
 
   <remote  name="github"
            fetch=".."
@@ -70,7 +70,6 @@
   <project path="external/fsck_msdos" name="LineageOS/android_external_fsck_msdos" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/fuse" name="LineageOS/android_external_fuse" />
   <project path="external/gello-build" name="LineageOS/android_external_gello_build" />
-  <project path="external/google" name="LineageOS/android_external_google" />
   <project path="external/gmock" name="LineageOS/android_external_gmock"/>
   <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" groups="pdk-fs" />
   <project path="external/gson" name="LineageOS/android_external_gson" />
@@ -86,6 +85,7 @@
   <project path="external/koush/AndroidAsync" name="LineageOS/AndroidAsync" />
   <project path="external/koush/ion" name="LineageOS/ion" />
   <project path="external/libavc" name="LineageOS/android_external_libavc" groups="pdk" />
+  <project path="external/libhevc" name="LineageOS/android_external_libhevc" groups="pdk-fs" />
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" />
   <project path="external/libnetfilter_conntrack" name="LineageOS/android_external_libnetfilter_conntrack" />
   <project path="external/libnfc-nci" name="LineageOS/android_external_libnfc-nci" groups="pdk" />
@@ -389,7 +389,6 @@
   <project path="external/libedit" name="platform/external/libedit" groups="pdk-fs" remote="aosp" />
   <project path="external/libexif" name="platform/external/libexif" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" remote="aosp" />
-  <project path="external/libhevc" name="platform/external/libhevc" groups="pdk-fs" remote="aosp" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" remote="aosp" />
   <project path="external/libmpeg2" name="platform/external/libmpeg2" groups="pdk" remote="aosp" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk-cw-fs,pdk-fs" remote="aosp" />

@@ -120,7 +120,7 @@
   <project path="external/powertop" name="LineageOS/android_external_powertop" />
   <project path="external/protobuf-c" name="LineageOS/android_external_protobuf-c" />
   <project path="external/rsync" name="LineageOS/android_external_rsync" />
-  <project path="external/sepolicy" name="LineageOS/android_external_sepolicy" groups="pdk" />
+  <project path="external/sepolicy" name="qq505916481/android_external_sepolicy-LineageOS" groups="pdk" />
   <project path="external/skia" name="LineageOS/android_external_skia" groups="pdk,qcom_msm8x26" />
   <project path="external/sonivox" name="LineageOS/android_external_sonivox" groups="pdk" />
   <project path="external/speex" name="LineageOS/android_external_speex" groups="pdk" />
@@ -281,7 +281,7 @@
   <project path="packages/wallpapers/PhaseBeam" name="LineageOS/android_packages_wallpapers_PhaseBeam" groups="pdk-fs" />
   <project path="packages/wallpapers/PhotoPhase" name="LineageOS/android_packages_wallpapers_PhotoPhase" />
   <project path="prebuilts/cmsdk" name="LineageOS/android_prebuilts_cmsdk" clone-depth="1" revision="master" />
-  <project path="system/bt" name="LineageOS/android_system_bt" groups="pdk" />
+  <project path="system/bt" name="qq505916481/android_system_bt-LineageOS" groups="pdk" />
   <project path="system/core" name="qq505916481/android_system_core-LineageOS" groups="pdk" />
   <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" />
   <project path="system/extras/su" name="LineageOS/android_system_extras_su" />
